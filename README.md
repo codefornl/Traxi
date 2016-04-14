@@ -1,57 +1,52 @@
 ![alt tag](https://github.com/LabPLC/Traxi/raw/master/Traxi/res/drawable-hdpi/ic_launcher.png?raw=true) TRAXI
 ============
 
-App que te auxilia a la hora de tomar un taxi del Distrito Federal (DF), al ingresar una placa se te mostrarán los datos del vehículo ademas de un termómetro de confianza:
+Traxi is een Android Applicatie die mensen help bij het reizen met taxi's. Na het invoeren van het registratienummer van een taxi, wordt het registratienummer gecontroleerd en wordt informatie over de taxi getoond:
 
-Dado por la app:
-* revista vehicular
-* infracción de tránsito
-* tenencia vehicular
-* año del taxi
-* verificación vehicular
+Informatie uit systemen:
+* Voertuigen informatie
+* Verkeersovertredingen (niet in alle landen mogelijk)
+* Eigenaarsgegevens
+* Jaar waarop de taxi in dienst is getreden
+* Inspectie informatie van het voertuig
 
-Dado por los usuarios:
-* Calificación de 0 a 5 
-* Comentario
-                
-Adicionalmente puedes ver quien de tus amigos de Facebook han tomado ese taxi y sus calificaciones.
+Informatie van andere gebruikers:
+* Waardering (0-5 sterren)
+* Opmerkingen van anderen
 
-# Fotografía
+Daarnaast kun je TRAXI koppelen aan Facebook en van hen zien of jullie met dezelfde taxi hebben gereisd en welke ervaringen ze hiermee hadden.
 
-Puedes ingresar la placa del vehículo tomando una foto a la puerta o a su tablero del taxi.
+# Slimme foto's
 
-# Contacto de emergencia y seguridad
+Het is met TRAXI mogelijk foto's te maken van nummerplaten, taxiborden en registratienummers. Het is ook mogelijk foto's op een later tijdstip door TRAXI te laten verwerken.
 
-Puedes agregar hasta dos contactos de emergencia en los que debes agregar su celular y correo, esto servira para poder activar el modo paranoico o utilizar el botón de panico
+# Contact nood- en veiligheid
 
-* Botón de pánico, durante tu viaje y sólo durante tu viaje puedes apretar 5 veces el botón de encendido del smartphone y se enviara un SMS a tu contacto de emergencia indicándole que revise su correo y n correos electrónicos mostrando tu ubicación y nivel de batería.
-* Modo paranoico, este esta desactivado por defecto per se puede hacer que te estén llegando notificaciones preguntando si te encuentras bien!, de no contestarla se envía un SMS a tu contacto de emergencia indicandole que revise su correo y n correos electrónicos mostrando tu ubicación y nivel de batería.
+Het is mogelijk maximaal twee contacten op te geven met telefoonnummer en e-mail adres die wanneer de paranoïde modus wordt geactiveerd of de paniekknop wordt gebruikt.
 
-Una vez iniciado el viaje la app te rastreara cada 5 segundos.
+* Wanneer tijdens de reis (en alleen tijdens de reis) 5 maal op de aan-uitknop van de telefoon wordt gedrukt, dan wordt een sms verstuurd naar de contactpersoon voor noodgevallen. De contactpersoon ontvangt vervolgens e-mails met gegevens over de locatie en de batterij. De contactpersoon kan hierdoor zien en volgen waar je bent.
+* Er is ook een Paranoïde modus, dit is standaard uitgeschakeld . Wanneer de paranoïde modus aan staat, dan ontvang je berichten die vragen of je in orde bent. Wanneer niet tijdig op de berichten wordt gereageerd, ontvangt de contactpersoon vervolgens e-mails gegevens over de locatie en de batterij. De contactpersoon kan hierdoor zien en volgen waar je bent.
+Als u uw contactpersonen voor noodgevallen is ingesteld, kan de paranoïde modus tijdens de reis worden geactiveerd.
+Eenmaal begonnen met de reis legt de applicatie elke 5 seconden de locatie vast.
 
 # Tips:
+TRAXI geeft veiligheidstips voor het gebruik van taxi's.
 
-Traxi te da consejos de seguridad y para un buen uso de los taxis del DF.
+# Kaart
+Tijdens de rit kan de gebruiker op een kaart de reisroute bekijken met informatie over de mogelijke route en de resterende afstand en tijd tot de plaats van bestemming
 
+# Beoordeling
 
-# Mapa
-
-Durante el viaje el usuario puede ver un mapa (googleMaps) donde ve el camino que a recorrido y puede poner el destino, si hace esto se mostrara la ruta posible que puede tomar el taxi, la distancia y el tiempo que le falta por recorrer.
-
-Si configuraste tus contactos de emergencia puedes activar el modo paranoico durante el viaje o desactivarlo.
-
-# Calificación
-
-Al final del viaje el usuario puede calificar el servicio del 0 al 5 y puede hacer un comentario de 50 caracteres.
+Aan het eind van de reis kan rit worden gewaardeerd met 0-5 sterren en kan een reactie van 50 tekens worden geplaatst.
 
 
-# Idiomas
+# Talen
 
-La aplicación tiene soporte para idiomas español e ingles.
+De applicatie heeft ondersteuning voor Spaans en het Engels en kan vertaald worden in elk willekeurige andere taal.
 
 ___________________
 ___________________
-# Pantallas
+# Screenshots
 
 <p align="center">
 <img src="https://github.com/LabPLC/Traxi/blob/master/screenshot/Screenshot_2014-06-02-17-55-17.png?raw=true" alt="Traxi" height="460" width="240"/>
@@ -72,54 +67,57 @@ ___________________
 <img src="https://github.com/LabPLC/Traxi/blob/master/screenshot/Screenshot_2014-06-02-18-07-20.png?raw=true" alt="Traxi" height="460" width="240"/>
 <img src="https://github.com/LabPLC/Traxi/blob/master/screenshot/Screenshot_2014-06-02-18-09-28.png?raw=true" alt="Traxi" height="460" width="240"/>
 <img src="https://github.com/LabPLC/Traxi/blob/master/screenshot/Screenshot_2014-06-02-18-10-00.png?raw=true" alt="Traxi" height="460" width="240"/>
-
-
 </p>
 
-
 ___________________
 ___________________
-Desarrollada en Eclipse Kepler y ADT para android 4.0 y superiores
+# Ontwikkelaarsinformatie
 
-# BIBLIOTECAS EXTERNAS 
+De applicatie is ontwikkeld in Eclipse met ADT voor Android 4.0 of hoger
 
-    google_play_services_lib
-    FacebookSDK
+## Externe bibliotheken
 
-AYUDA PARA AGREGAR google_play_services_lib
-    seleccionar New-> Project -> Android Application Project from Existing Code
-    dar doble click en la ruta - "android-sdk\extras\google\google_play_services"
+* google_play_services_lib
+* FacebookSDK
+
+De google_play_services_lib bibliotheek kan worden toegevoegd met
+
+    selecteert Nieuw-> Project -> Android Project van bestaande code
+    dubbelklik op de route - "android-sdk \ extras \ Google \ google_play_services"
     
-AYUDA PARA AGREGAR FacebookSDK
-    se encuentra en https://developers.facebook.com/docs/android/
+Voor het toevoegen van de Facebook SDK kijk je op:
+
+    Het is in https://developers.facebook.com/docs/android/
 
 
-# BIBLIOTECAS INTERNAS
+## Interne bibliotheken
 
-    acra-4.5.jar
-    activation.jar
-    additionnal.jar
-    apache-mime4j-core-0.7.2.jar
-    httpclient-4.3.1.jar
-    httpcore-4.3.jar
-    httpmime-4.3.1.jar
-    mail.jar
-    socketio.jar
+  Deze bevinden zich in de map project
+
+* Acra-4.5.jar
+* activation.jar
+* additionnal.jar
+* apache-mime4j-core-0.7.2.jar
+* httpclient-4.3.1.jar
+* httpcore-4.3.jar
+* httpmime-4.3.1.jar
+* mail.jar
+* socketio.jar
     
-Estas se encuentran en la carpeta libs del proyecto.
-
-Debido a problemas de compativilidad con las versiones de Android acra-4.5.jar también debe ser agregada en caso de que no la reconozca dando clic derecho al proyecto-> Properties ->Java Build Path -> Libraries -> add JARs.. y agregarla de la carpeta libs que esta dentro del proyecto. 
+Er kunnen compatibiliteitsproblemen optreden. Daarom kan het zijn dat acra-4.5.jar expliciet moet worden toegevoegd via
+    Project-> Properties  -> Java Build Path -> Bibliotheken -> JAR toevoegen 
+en voeg ..  de libs map die zich binnen het project bevindt toe
 ___________________
 ___________________
-# ¿Quiéres probar la app?
+# Wilt u de app te proberen?
 
 https://play.google.com/store/apps/details?id=codigo.labplc.mx.traxi&hl=es
 
 
 
 
-# Dudas
+# Ontwikkelaars
 
-    @yosoymikesaurio
-    miguel.moran@codigo.labplc.mx
-    http://www.traxi.mx
+     @yosoymikesaurio
+     miguel.moran@codigo.labplc.mx
+     http://www.traxi.mx
